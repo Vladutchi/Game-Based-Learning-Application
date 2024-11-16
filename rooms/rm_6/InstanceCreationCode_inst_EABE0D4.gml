@@ -1,0 +1,1 @@
+text = "This gate can only be unlocked by the IF statement."

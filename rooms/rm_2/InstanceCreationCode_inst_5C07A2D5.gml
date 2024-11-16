@@ -1,0 +1,1 @@
+text = "coins >= 1"

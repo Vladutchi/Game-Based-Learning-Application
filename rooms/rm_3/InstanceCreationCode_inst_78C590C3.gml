@@ -1,0 +1,5 @@
+add_text("Arithmetic operators are symbols used to perform mathematical calculations in programming.")
+add_text("Addition (+): Adds two values together." + "\n" +"Example: 5 + 3 equals 8")
+add_text("Subtraction (-): Subtracts the second value from the first." + "\n" +"Example: 7 - 2 equals 5")
+add_text("Multiplication (*): multiplies two values together." + "\n" +"Example: 4 * 6 equals 24")
+add_text("Division (/): divides the first value by the second." + "\n" +"Example: 1 / 2 equals 0.5")

@@ -1,0 +1,1 @@
+text = "IF slime is on spikes THEN" + "\n" +"   unlock gate" + "\n" + "ELSE" + "\n" + "   change slime direction" + "\n" +"END IF"

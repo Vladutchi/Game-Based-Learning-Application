@@ -1,0 +1,1 @@
+text = "IF slimes >= 3 THEN" + "\n" +"   unlock gate" + "\n" + "ELSE" + "\n" + "   spawn slime" + "\n" +"END IF"

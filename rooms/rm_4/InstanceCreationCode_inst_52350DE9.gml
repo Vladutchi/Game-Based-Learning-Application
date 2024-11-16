@@ -1,0 +1,1 @@
+text = "coins = 2 OR slimes = 2"

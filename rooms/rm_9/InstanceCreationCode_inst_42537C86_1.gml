@@ -1,0 +1,1 @@
+text = "FOR i <- 1 TO n DO" + "\n" +"   water plant" + "\n" + "END FOR";
