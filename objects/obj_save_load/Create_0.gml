@@ -16,7 +16,6 @@ function load() {
         var _load_data = json_parse(_string);
         global.room = _load_data; // Assign the retrieved value directly
         buffer_delete(_buffer);
-		show_message(working_directory);
     }
 }
 
