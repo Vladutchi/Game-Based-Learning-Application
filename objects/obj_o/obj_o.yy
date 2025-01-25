@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_k",
+  "name": "obj_o",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_k",
-    "path": "sprites/spr_k/spr_k.yy",
+    "name": "spr_o",
+    "path": "sprites/spr_o/spr_o.yy",
   },
   "spriteMaskId": null,
   "visible": true,

@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_h",
+  "name": "obj_u",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_h",
-    "path": "sprites/spr_h/spr_h.yy",
+    "name": "spr_u",
+    "path": "sprites/spr_u/spr_u.yy",
   },
   "spriteMaskId": null,
   "visible": true,
