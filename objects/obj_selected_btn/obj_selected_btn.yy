@@ -9,8 +9,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "interfaces",
-    "path": "folders/Objects/User Interface/interfaces.yy",
+    "name": "utility",
+    "path": "folders/Objects/User Interface/utility.yy",
   },
   "parentObjectId": null,
   "persistent": false,

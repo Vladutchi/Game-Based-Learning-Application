@@ -41,7 +41,7 @@
   "origin": 0,
   "parent": {
     "name": "display",
-    "path": "folders/Sprites/User Interface/Interface/display.yy",
+    "path": "folders/Sprites/User Interface/display.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

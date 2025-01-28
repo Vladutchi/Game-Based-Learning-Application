@@ -11,7 +11,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "run buttons",
-    "path": "folders/Objects/User Interface/Buttons/run buttons.yy",
+    "path": "folders/Objects/User Interface/buttons/run buttons.yy",
   },
   "parentObjectId": null,
   "persistent": false,

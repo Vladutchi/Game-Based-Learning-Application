@@ -138,8 +138,8 @@
 0,0,-7,-2147483648,-13,0,-7,-2147483648,],"TileDataFormat":1,},"tilesetId":{"name":"ts_room","path":"tilesets/ts_room/ts_room.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
   ],
   "parent": {
-    "name": "Rooms",
-    "path": "folders/Rooms.yy",
+    "name": "Level 1",
+    "path": "folders/Rooms/Level 1.yy",
   },
   "parentRoom": null,
   "physicsSettings": {

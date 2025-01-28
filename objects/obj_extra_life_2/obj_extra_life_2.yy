@@ -9,7 +9,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "life",
-    "path": "folders/Objects/User Interface/Instances/life.yy",
+    "path": "folders/Objects/User Interface/life.yy",
   },
   "parentObjectId": {
     "name": "obj_extra_life",

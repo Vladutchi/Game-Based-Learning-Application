@@ -26,7 +26,7 @@
   "origin": 0,
   "parent": {
     "name": "run buttons",
-    "path": "folders/Sprites/User Interface/Interface/run buttons.yy",
+    "path": "folders/Sprites/User Interface/Input/run buttons.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

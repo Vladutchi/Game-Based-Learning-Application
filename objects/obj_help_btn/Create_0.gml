@@ -145,7 +145,7 @@ function add_dialogue(_textbox){
 			_textbox.add_text("The FOR structure is used to execute a set of instructions a specific number of times.")
 			_textbox.add_text("FOR variable <- start TO end DO" + "\n" + "   statement" + "\n" + "END FOR")
 			_textbox.add_text("In this structure:" + "\n" + " 'variable' is the loop control variable." + "\n" + " 'start' is the initial value." + "\n" + " 'end' is the final value." + "\n" + " 'statement' is executed for each value of the variable from start to end.")
-			_textbox.add_text("Example:" + "\n" + "FOR i <- 1 TO 5 DO" + "\n" + "   statement" + "\n" + "END FOR" + "\n" + " In this example, 'i' will be 1, then 2, then 3, then 4, then 5 and 'statement' will be executed exactly 5 times. ")
+			_textbox.add_text("Example:" + "\n" + "FOR i <- 1 TO 3 DO" + "\n" + "   statement" + "\n" + "END FOR" + "\n" + " In this example, 'i' will be 1, then 2, then 3 and 'statement' will be executed exactly 3 times. ")
 			_textbox.add_text("You can click on the FOR block to see its code.")
 			_textbox.add_text("You can attack the FOR block to run its code.")
 			
@@ -158,6 +158,9 @@ function add_dialogue(_textbox){
 			else
 				_textbox.add_text("Good job!")
 			
+		}break;
+		case rm_hub_lvl2:{
+			_textbox.add_text("You can click on people to talk.")
 		}break;
 		
 		

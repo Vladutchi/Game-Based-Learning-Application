@@ -11,7 +11,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "input buttons",
-    "path": "folders/Objects/User Interface/Buttons/input buttons.yy",
+    "path": "folders/Objects/User Interface/buttons/input buttons.yy",
   },
   "parentObjectId": {
     "name": "obj_input_btn",

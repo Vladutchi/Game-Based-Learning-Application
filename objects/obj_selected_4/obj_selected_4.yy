@@ -9,7 +9,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "selected",
-    "path": "folders/Objects/User Interface/Instances/selected.yy",
+    "path": "folders/Objects/User Interface/selected.yy",
   },
   "parentObjectId": {
     "name": "obj_selected_btn",
