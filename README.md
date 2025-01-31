@@ -1,52 +1,120 @@
-# Game-Based Learning Application
+# Game-Based Learning Application  
 
-This is a game designed to teach programming concepts to beginners through gameplay. The game walks players through basic programming structures and operations such as variables, operators, loops, and conditional statements, all explained in pseudocode.
+This project is an educational game designed to teach fundamental programming concepts through interactive gameplay. Players learn key programming structures, including **variables, operators, loops, and conditional statements**, all explained using pseudocode in an engaging and structured manner.  
 
-## Prerequisites
+## Project Purpose  
 
-To run this project, you will need **GameMaker Studio 2**. You can download the free edition from the official website here:
+This project demonstrates:  
+- **Game-based learning methodologies** to teach programming interactively.  
+- **Implementation of programming logic** in a game development environment.  
+- **User engagement strategies** through level-based challenges and progression.  
+- **Proficiency in GameMaker Studio 2** and its scripting language, **GML (GameMaker Language)**.  
+
+## Prerequisites  
+
+To run this project, you will need **GameMaker Studio 2**. The free edition can be downloaded from the official website:  
 
 - [Download GameMaker Studio 2 (Free Edition)](https://www.yoyogames.com/get)
 
-## How to Open the Project
+## How to Open the Project  
 
-1. Download and install GameMaker Studio 2 (Free Edition).
-2. After installation, open GameMaker Studio 2.
-3. In the GameMaker Studio 2 interface, select **"Open Project"**.
-4. Navigate to the project directory and select the **`Game-Based-Learning-Application.yyp`** file. This file contains the project structure and will allow you to open, run, and edit the project.
+1. Download and install **GameMaker Studio 2**.  
+2. Open GameMaker Studio 2.  
+3. Click **"Open Project"** and navigate to the project folder.  
+4. Select the file **`Game-Based-Learning-Application.yyp`** to load the project.  
+5. Run the game within GameMaker Studio 2.  
 
-## Game Overview
+---
 
-The game consists of various levels that teach programming concepts using pseudocode. It is aimed at beginners, providing an interactive and engaging way to learn the fundamentals of programming. Here’s an overview:
+## Game Overview  
 
-1. **Menu**: Choose from "Continue", "New Game", and "Quit Game". The game saves automatically in a JSON file after entering a new room.
+The game consists of multiple levels, each introducing a **new programming concept**. Players progress by solving puzzles that require applying programming logic.  
 
+### Features:  
+- **Interactive Levels:** Each level introduces a new programming topic.  
+- **Visual Programming Interface:** Players select inputs that execute like a program.  
+- **Progression System:** Levels build on previous concepts to reinforce learning.  
+- **Final Challenge:** Players complete a programming-based quiz to finish the game.  
+- **Auto-Saving:** The game saves progress using a JSON file after each level.  
+
+---
+
+## Game Structure & Levels  
+
+### 1. Main Menu  
+The main menu provides the following options:  
+- **Continue**: Resume a saved game.  
+- **New Game**: Start a new playthrough.  
+- **Quit**: Exit the game.  
+
+*Screenshot:*  
 ![Menu](screenshots/menu.png)
 
-3. **Initialization Room**: This room initializes global variables and provides a **`?`** button that teaches basic controls like movement and attack. In order to move, the player needs to select their inputs by clicking the green buttons on the screen. To cancel their selection, they can click on the red **`X`** button on the screen. In order to run thier selected inputs, the player can click on the green **`▶`** button on the screen
+---
 
+### 2. Initialization Room
+- Introduces the **game mechanics** and **basic controls**.
+- Instructions can be displayed by clicking the **blue `?` button**  
+- Players select movement and attack inputs via **green buttons**.  
+- Selected inputs appear in the **yellow column** on the right.  
+- Inputs can be canceled using the **red "`X`" button**.  
+- The selected inputs execute one by one when the **green "`▶`" button** is clicked, simulating a step-by-step program execution.  
+
+*Screenshot:*  
 ![Initialization](screenshots/initialization.png)
 
-5. **House**: The NPC introduces the game’s story and sets the goal of rescuing his friend, who got lost in the dungeon. To succeed, the player must learn and apply programming concepts.
+---
 
+### 3. Story Introduction (House)  
+- The NPC introduces the **game’s storyline**:  
+  - A friend has become **lost in the dungeon**.  
+  - The player must **learn and apply programming concepts** to rescue them.  
+
+*Screenshot:*
 ![House](screenshots/house.png)
 
-7. **Levels**: In order to progress, the player must solve different puzzles related to the different programming concepts that the levels are focused on. Each level introduces a new concept through a text explanation. Whenever they need help, the player can visualise these explanations again by clicking the blue **`?`** button on the screen. The levels of the game include:
+---
 
-   - **Variables**: The player can play around and get used to the controlls while observing that each time they defeat a slime, the **`slimes`** variable goes up on the screen.
+### 4. Learning Levels  
+Each level teaches a **specific programming concept** through problem-solving and gameplay mechanics:  
 
-![lvl-1](screenshots/lvl-1.png)
+- **Variables:** Players track a **`slimes`** variable, which increments when enemies are defeated.
+  
+  *Screenshot:*
+  ![Variables](screenshots/variables.png)
 
-   - **Comparison Operators**: The player can click on the locked gates to see the different logical conditions that they need to fulfill in order to progress.
+- **Comparison Operators:** Players must meet **specific logical conditions** to unlock gates.
 
-![lvl-1](screenshots/lvl-2-gate.png)
+  *Screenshot:*
+  ![Comparison](screenshots/comparison.png)
 
-   - Arithmetic Operators
-   - Logical Operators
-   - If, While, Repeat Until, and For loops
-   - A quiz on the previously learned concepts.
-   - **Final Boss**: A challenge where the player answers programming-related questions to defeat a boss and complete the game.
+- **Arithmetic Operators:** Basic mathematical operations are integrated into gameplay mechanics, including addition, subtraction, multiplication, and floating-point division.
+  
+   *Screenshot:*
+   ![Arithmetic](screenshots/arithmetic.png)
+  
+- **Logical Operators:** The game utilizes AND, OR, and NOT operations to control various game elements.
 
-## Have Fun!
+   *Screenshot:*
+   ![Logical](screenshots/logical.png)
+ 
+- **Quiz Level:** A recap level reinforcing all previously learned programming concepts.
+  
+   *Screenshot:*
+   ![Quiz](screenshots/quiz.png)
+ 
+- **Control Structures:** Introduces essential programming constructs such as `if` statements, `while` loops, `repeat until` loops, and `for` loops.
+  
+   *Screenshot:*
+   ![Structures](screenshots/structures.png)
+ 
+- **Final Challenge:** A boss fight where each attack triggers a programming question. The player must apply their programming knowledge to defeat the boss and complete the game.
 
-Enjoy the game and have fun learning programming!
+   *Screenshot:*
+   ![Bossfight](screenshots/bossfight.png)
+ 
+
+---
+
+
+
