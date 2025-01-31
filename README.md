@@ -76,45 +76,36 @@ The main menu provides the following options:
 ---
 
 ### 4. Learning Levels  
-Each level teaches a **specific programming concept** through problem-solving and gameplay mechanics:  
+Each level introduces a **specific programming concept** through problem-solving and interactive gameplay:  
 
-- **Variables:** Players track a **`slimes`** variable, which increments when enemies are defeated.
-  
-  *Screenshot:*
-  ![Variables](screenshots/variables.png)
+- **Variables:** Players track a **`slimes`** variable, which increments each time an enemy is defeated.  
 
-- **Comparison Operators:** Players must meet **specific logical conditions** to unlock gates.
+  *Screenshot:*  
+  ![Variables](screenshots/variables.png)  
 
-  *Screenshot:*
-  ![Comparison](screenshots/comparison.png)
+- **Operators:** Players must meet **specific logical conditions** to unlock gates. This concept is introduced across three progressively challenging levels:  
+  - **Comparison Operators:** Covers `=`, `<`, `>`, `<=`, `>=`, and `<>`.  
+  - **Arithmetic Operators:** Includes addition, subtraction, multiplication, and floating-point division.  
+  - **Logical Operators:** Introduces AND, OR, and NOT operations. 
 
-- **Arithmetic Operators:** Basic mathematical operations are integrated into gameplay mechanics, including addition, subtraction, multiplication, and floating-point division.
-  
-   *Screenshot:*
-   ![Arithmetic](screenshots/arithmetic.png)
-  
-- **Logical Operators:** The game utilizes AND, OR, and NOT operations to control various game elements.
+  *Screenshot:*  
+  ![Operators](screenshots/operators.png)  
 
-   *Screenshot:*
-   ![Logical](screenshots/logical.png)
- 
-- **Quiz Level:** A recap level reinforcing all previously learned programming concepts.
-  
-   *Screenshot:*
-   ![Quiz](screenshots/quiz.png)
- 
-- **Control Structures:** Introduces essential programming constructs such as `if` statements, `while` loops, `repeat until` loops, and `for` loops.
-  
-   *Screenshot:*
-   ![Structures](screenshots/structures.png)
- 
-- **Final Challenge:** A boss fight where each attack triggers a programming question. The player must apply their programming knowledge to defeat the boss and complete the game.
+- **Quiz Level:** A recap level designed to reinforce previously learned concepts. Questions are selectet randomly and
 
-   *Screenshot:*
-   ![Bossfight](screenshots/bossfight.png)
- 
+  *Screenshot:*  
+  ![Quiz](screenshots/quiz.png)  
 
----
+- **Control Structures:** Introduces key programming constructs, including `if` statements, `while` loops, `repeat until` loops, and `for` loops.  
+
+  *Screenshot:*  
+  ![Structures](screenshots/structures.png)  
+
+- **Final Challenge:** A boss fight where each attack is linked to a programming-related question. The player must apply their programming knowledge to defeat the boss and complete the game.  
+
+  *Screenshot:*  
+  ![Bossfight](screenshots/bossfight.png)  
+
 
 
 
