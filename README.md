@@ -100,7 +100,7 @@ Players must use gameplay mechanics to meet **specific logical conditions** and 
 This concept is introduced across three progressively challenging levels:  
 - **4.2.1 Comparison Operators:** Covers `=`, `<`, `>`, `<=`, `>=`, and `<>`.  
 - **4.2.2 Arithmetic Operators:** Includes addition, subtraction, multiplication, and floating-point division.  
-- **4.2.3 Logical Operators:** Introduces AND, OR, and NOT operations.  
+- **4.2.3 Logical Operators:** Introduces `AND`, `OR`, and `NOT` operations.  
 
 **Logical Operators Level Screenshot:**  
 ![Operators](screenshots/operators.png)  
