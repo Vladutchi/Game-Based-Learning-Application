@@ -131,7 +131,7 @@ In these levels, the player can interact with blocks labeled with their respecti
 ---
 
 ### **4.4.2 While Loop**  
-- Includes both the **if statement** and the **while loop**.  
+- Introduces the **while loop** and includes an **if statement**.  
 - The **if block** changes the direction of a slime.  
 - The **while loop** moves the slime **until it hits a wall**.  
 - To complete the level, players must coordinate the slime to land on a **set of spikes** using these structures.  
@@ -155,7 +155,7 @@ In these levels, the player can interact with blocks labeled with their respecti
 ---
 
 ### **4.4.4 For Loop**  
-- Introduces the **for loop** alongside an **if statement**.  
+- Introduces the **for loop** and includes an **if statement**.  
 - The **if block** changes the value of **n**, which determines how many times the **for loop executes**.  
 - The **for loop** is responsible for **watering a plant n times**.  
 - The objective is to **water the plant a specific number of times** to complete the level.  
