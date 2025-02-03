@@ -126,7 +126,7 @@ In these levels, the player can interact with blocks labeled with their respecti
 - If the condition is met, the level either **spawns a slime** or **opens the door** to the next level.  
 
 **If Statement Level Screenshot:**  
-![IfStatement](screenshots/if_statement.png)  
+![IfStatement](screenshots/if.png)  
 
 ---
 
@@ -137,7 +137,7 @@ In these levels, the player can interact with blocks labeled with their respecti
 - To complete the level, players must coordinate the slime to land on a **set of spikes** using these structures.  
 
 **While Loop Level Screenshot:**  
-![WhileLoop](screenshots/while_loop.png)  
+![WhileLoop](screenshots/while.png)  
 
 ---
 
@@ -150,7 +150,7 @@ In these levels, the player can interact with blocks labeled with their respecti
 - To exit, the player must **reactivate the repeat until block** so the bats move again. Since the coins have already been collected, the loop executes **once** before stopping again, allowing safe passage.  
 
 **Repeat Until Loop Level Screenshot:**  
-![RepeatUntil](screenshots/repeat_until.png)  
+![RepeatUntil](screenshots/repeat.png)  
 
 ---
 
@@ -161,7 +161,7 @@ In these levels, the player can interact with blocks labeled with their respecti
 - The objective is to **water the plant a specific number of times** to complete the level.  
 
 **For Loop Level Screenshot:**  
-![ForLoop](screenshots/for_loop.png)  
+![ForLoop](screenshots/for.png)  
 
 ---
 
