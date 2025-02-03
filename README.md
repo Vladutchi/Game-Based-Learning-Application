@@ -178,3 +178,7 @@ In these levels, the player can interact with blocks labeled with their respecti
 ![Bossfight](screenshots/bossfight.png)  
 
 ---
+
+## Contact  
+For more information, feel free to reach out to me at [costinvladioan@gmail.com].
+
