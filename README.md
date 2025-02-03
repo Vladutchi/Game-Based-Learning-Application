@@ -111,7 +111,7 @@ This concept is introduced across three progressively challenging levels:
 - A recap level designed to reinforce previously learned concepts.  
 - Questions are selected randomly.  
 
-**Quiz Screenshot:**  
+**Quiz Level Screenshot:**  
 ![Quiz](screenshots/quiz.png)  
 
 ---
