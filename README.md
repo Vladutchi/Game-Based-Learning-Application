@@ -103,7 +103,7 @@ This concept is introduced across three progressively challenging levels:
 - **4.2.3 Logical Operators:** Introduces `AND`, `OR`, and `NOT` operations.  
 
 **Logical Operators Level Screenshot:**  
-![Operators](screenshots/operators.png)  
+![Operators](screenshots/logical.png)  
 
 ---
 
