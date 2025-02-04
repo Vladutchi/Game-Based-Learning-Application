@@ -13,7 +13,7 @@ function add_dialogue(_textbox){
           
 	}else if room == rm_end{	
 			
-			_textbox.add_text("This game was made by" + "\n" + "Vlad Costin")
+			_textbox.add_text("Roll credits:" + "\n" + "  Vlad Costin"+ "\n" +"  . . ."+ "\n" +"that's it.")
           
 	}
 }

@@ -15,7 +15,7 @@ function add_dialogue(_textbox){
 	}
 	else if room == rm_end{	
 		
-		_textbox.add_text("Let's celebrate the end of your adventure!")
+		_textbox.add_text("You did a good job!")
 		
 	}
 }
