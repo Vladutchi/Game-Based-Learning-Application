@@ -9,8 +9,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Menu Objects",
-    "path": "folders/Menu System/Menu Objects.yy",
+    "name": "textboxes",
+    "path": "folders/Menu System/Menu Objects/textboxes.yy",
   },
   "parentObjectId": null,
   "persistent": false,

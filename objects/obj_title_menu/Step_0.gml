@@ -23,6 +23,10 @@ if _accept_key{
 			}
 			break;
 		case 2:
+			instance_create_depth(0, 0, -9998, obj_lvl_select_menu);
+			instance_destroy();
+			break;
+		case 3:
 			game_end();
 			break;
 	

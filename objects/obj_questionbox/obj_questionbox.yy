@@ -10,8 +10,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Dialogue System",
-    "path": "folders/Menu System/Dialogue System.yy",
+    "name": "textboxes",
+    "path": "folders/Menu System/Menu Objects/textboxes.yy",
   },
   "parentObjectId": {
     "name": "obj_textbox",
@@ -33,8 +33,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_menubox",
-    "path": "sprites/spr_menubox/spr_menubox.yy",
+    "name": "spr_questionbox",
+    "path": "sprites/spr_questionbox/spr_questionbox.yy",
   },
   "spriteMaskId": null,
   "visible": true,
