@@ -5,7 +5,7 @@ function add_dialogue(_textbox){
 		
 			_textbox.add_text("Select your movement inputs from the green arrows.")
 			_textbox.add_text("You can choose to attack after a movement input by selecting the green sword.")
-			_textbox.add_text("You can see your selected inputs on the yellow collumn on the right.")
+			_textbox.add_text("You can see your selected inputs on the blue collumn on the right.")
 			_textbox.add_text("Use the green triangle button to run your selected inputs.")
 			_textbox.add_text("Use the red X button to cancel your selection and stop the running of inputs.")
 			
