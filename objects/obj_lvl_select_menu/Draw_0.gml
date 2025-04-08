@@ -4,11 +4,11 @@ draw_set_font(global.font_main);
 draw_set_valign(fa_top);
 draw_set_halign(fa_left);
 
-var total_options = array_length(level_names) + 1; // +1 for "Back" option
+var _total_options = array_length(level_names) + 1; // +1 for "Back" option
 
 for (var _i = 0; _i < visible_count; _i++) {
     var _index = scroll_offset + _i;
-    if (_index >= total_options) break;
+    if (_index >= _total_options) break;
 
     var _text;
     var _c = c_white;

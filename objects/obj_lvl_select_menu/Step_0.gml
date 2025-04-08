@@ -3,7 +3,7 @@ var _down = keyboard_check_pressed(ord("S"));
 var _accept = keyboard_check_pressed(vk_space);
 var _cancel = keyboard_check_pressed(vk_escape);
 
-var _total_options = array_length(level_list) + 1; // +1 for Back button
+var _total_options = array_length(global.level_list) + 1; // +1 for Back button
 
 // Scroll DOWN
 if (_down) {
@@ -37,7 +37,7 @@ if (_accept && !instance_exists(obj_transition)) {
         instance_destroy();
     } else {
         // Valid level selected
-        global.room = level_list[level_pos - 1];
+        global.room = global.level_list[level_pos - 1];
         obj_save_load.save();
         instance_create_depth(0, 0, -9998, obj_menu_transition);
         instance_destroy();

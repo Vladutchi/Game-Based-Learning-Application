@@ -7,9 +7,10 @@
   "inheritCreationOrder": false,
   "inheritLayers": false,
   "instanceCreationOrder": [
-    {"name":"inst_3CAB39B9","path":"rooms/rm_title_screen/rm_title_screen.yy",},
-    {"name":"inst_5AA7900E","path":"rooms/rm_title_screen/rm_title_screen.yy",},
     {"name":"inst_281C67D","path":"rooms/rm_title_screen/rm_title_screen.yy",},
+    {"name":"inst_5AA7900E","path":"rooms/rm_title_screen/rm_title_screen.yy",},
+    {"name":"inst_3CAB39B9","path":"rooms/rm_title_screen/rm_title_screen.yy",},
+    {"name":"inst_7169BA94","path":"rooms/rm_title_screen/rm_title_screen.yy",},
     {"name":"inst_107340E3","path":"rooms/rm_title_screen/rm_title_screen.yy",},
     {"name":"inst_4B51D43A","path":"rooms/rm_title_screen/rm_title_screen.yy",},
     {"name":"inst_2EE0C295","path":"rooms/rm_title_screen/rm_title_screen.yy",},
@@ -19,7 +20,6 @@
     {"name":"inst_5B277B80","path":"rooms/rm_title_screen/rm_title_screen.yy",},
     {"name":"inst_3D18EF66","path":"rooms/rm_title_screen/rm_title_screen.yy",},
     {"name":"inst_144F30D2","path":"rooms/rm_title_screen/rm_title_screen.yy",},
-    {"name":"inst_7169BA94","path":"rooms/rm_title_screen/rm_title_screen.yy",},
     {"name":"inst_7E818EEF","path":"rooms/rm_title_screen/rm_title_screen.yy",},
     {"name":"inst_69FBBF66","path":"rooms/rm_title_screen/rm_title_screen.yy",},
   ],
@@ -42,9 +42,6 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7E818EEF","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_r","path":"objects/obj_r/obj_r.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":224.0,"y":64.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_69FBBF66","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_e","path":"objects/obj_e/obj_e.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":288.0,"y":32.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
-    {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_1","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":10,"SerialiseWidth":20,"TileCompressedData":[
--26,23,-6,0,-15,23,-6,0,-35,23,-3,0,1,23,-6,0,-10,23,-3,0,
-1,23,-6,0,-10,23,-3,0,-17,23,-3,0,-17,23,-3,0,-29,23,],"TileDataFormat":1,},"tilesetId":{"name":"ts_room","path":"tilesets/ts_room/ts_room.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
   ],
   "parent": {
     "name": "Menu System",

@@ -1,6 +1,12 @@
-level_list = [rm_1, rm_2, rm_3, rm_4, rm_5, rm_6, rm_7, rm_8, rm_9, rm_boss_10];
-level_names = ["Level 1", "Level 2", "Level 3", "Level 4", "Level 5", "Level 6", "Level 7", "Level 8", "Level 9", "Level 10"];
-unlocked_levels = [true, true, true, true, true, true, true, true, true, true];
+level_names = ["1. Variables", "2. Comparison", "3. Arithmetic", "4. Logical ", "5. Quiz",
+				"6. If ", "7. While", "8. Repeat", "9. For", "10. Boss Fight"];
+
+unlocked_levels = array_create(array_length(global.level_list), false);
+obj_save_load.load_levels();
+
+for(var _i = 0; _i < global.level_reached; _i++){
+	unlocked_levels[_i] = true;
+}
 
 // Position 0 will be the "Back" button
 level_pos = 0;
