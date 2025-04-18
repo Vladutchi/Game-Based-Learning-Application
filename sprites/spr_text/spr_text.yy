@@ -48,8 +48,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Menu Sprites",
-    "path": "folders/Menu System/Menu Sprites.yy",
+    "name": "boxes",
+    "path": "folders/Menu System/Menu Sprites/boxes.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

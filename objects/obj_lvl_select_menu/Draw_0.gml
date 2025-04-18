@@ -1,6 +1,6 @@
 draw_sprite_ext(sprite_index, image_index, menu_x, menu_y, width/sprite_width, height/sprite_height, 0, c_white, 1);
 
-draw_set_font(global.font_main);
+draw_set_font(global.font_main_big);
 draw_set_valign(fa_top);
 draw_set_halign(fa_left);
 
@@ -31,3 +31,5 @@ for (var _i = 0; _i < visible_count; _i++) {
         _c, _c, _c, _c, 1
     );
 }
+
+draw_set_font(global.font_main);
