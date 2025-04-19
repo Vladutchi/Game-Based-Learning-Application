@@ -1,1 +1,1 @@
-text = "Use 'W' and 'S' to go up and down." + "\n" +  "Use 'SPACEBAR' to select."
+text = "Use 'W' and 'S' to go up and down." + "\n" + "Use 'SPACEBAR' to select." + "\n" + "Use 'F' to enable fullscreen."
