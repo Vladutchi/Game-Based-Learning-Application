@@ -41,7 +41,8 @@ function check_sprite(){
 
 function check_input_flag(){
 	if (obj_run_btn.run_flag == true or instance_exists(obj_transition)
-	or instance_exists(obj_menu_transition) or instance_exists(obj_textbox)){
+	or instance_exists(obj_menu_transition) or instance_exists(obj_textbox)
+	or instance_exists(obj_pause_menu)){
 		input_locked = true
 	}
 	else{

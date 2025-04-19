@@ -1,5 +1,3 @@
-var _pause = keyboard_check_pressed(vk_escape);
-
 if(room != rm_end){
 	check_input_flag();
 	check_sprite();
