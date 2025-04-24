@@ -8,8 +8,8 @@ invincibility = false;
 hit_x = 0
 hit_y = 0
 
-function is_hit()
-{
+function is_hit(_playerDeathCause = PlayerDeathCause.EnemyHit)
+{	
 	if(invincibility == false){
 		obj_rm_var.hearts--;
 			if(extra_hp > 0){
@@ -22,7 +22,8 @@ function is_hit()
 			else{
 				hp--;
 				if hp == 0{
-						obj_warp.warp_player(room, obj_warp.target_x, obj_warp.target_y);
+						var _death_event = instance_create_depth(0, 0, 0, obj_death_event);
+						_death_event.initiate(_playerDeathCause);
 					}
 				}
 	}

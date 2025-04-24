@@ -1,5 +1,5 @@
 textbox_width = 32 * 6;
-textbox_height = 32 * 5;
+textbox_height = 32 * 6;
 
 
 textbox_y = camera_get_view_y(view_camera[0]) +32*2

@@ -136,7 +136,7 @@ function add_dialogue(_textbox){
 		case rm_9:{
 			
 			_textbox.textbox_width = 32 * 6;
-			_textbox.textbox_height = 32 * 5;
+			_textbox.textbox_height = 32 * 6;
 
 			_textbox.textbox_y = camera_get_view_y(view_camera[0]) +32*2
 
@@ -151,6 +151,7 @@ function add_dialogue(_textbox){
 			
 			
 		}break;
+		
 		case rm_boss_10:{
 			
 			if(instance_exists(obj_boss))
@@ -159,8 +160,11 @@ function add_dialogue(_textbox){
 				_textbox.add_text("Good job!")
 			
 		}break;
+		
 		case rm_hub_lvl2:{
+			
 			_textbox.add_text("You can click on people to talk.")
+			
 		}break;
 		
 		

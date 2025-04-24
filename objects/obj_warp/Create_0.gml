@@ -9,7 +9,6 @@ function warp_player(_target_rm, _target_x, _target_y)
 		_inst.target_rm = _target_rm;
 		_inst.target_x = _target_x;
 		_inst.target_y = _target_y;
-	
 	}
 }
 

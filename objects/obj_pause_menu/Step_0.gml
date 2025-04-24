@@ -14,8 +14,9 @@ if (keyboard_check_pressed(vk_enter) or keyboard_check_pressed(vk_space)) {
 			break;
 
 		case 1: // Quit to Menu
-			if not instance_exists(obj_restart_transition){
-				instance_create_depth(0,0,-9999, obj_restart_transition);
+			if not instance_exists(obj_menu_transition){
+				instance_create_depth(0,0,-9999, obj_menu_transition);
+				obj_menu_transition.target_rm = rm_title_screen;
 			}
 	}
 }

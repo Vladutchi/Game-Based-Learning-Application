@@ -36,7 +36,9 @@ function add_question(_question,_option0,_option1,_option2,_correct_answer){
 					question_num++;
 				}
 				else {
-						obj_warp.warp_player(room, obj_warp.target_x, obj_warp.target_y); // restart room
+					start_quiz = false;
+					instance_destroy(obj_questionbox)
+					obj_player.is_hit(PlayerDeathCause.WrongAnswer);
 				}
 			}
 }

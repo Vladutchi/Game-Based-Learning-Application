@@ -45,7 +45,7 @@ function add_question(_question,_option0,_option1,_option2,_correct_answer){
 				}
 				else {
 					reset_quiz();
-					obj_player.is_hit(); // player takes damage
+					obj_player.is_hit(PlayerDeathCause.WrongAnswer); // player takes damage
 				}
 			}
 }
