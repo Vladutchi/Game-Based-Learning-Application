@@ -3,7 +3,7 @@ if room == rm_title_screen{
 	textbox_width = 32 * 6;
 	textbox_height = 32 * 3;
 
-	textbox_x = camera_get_view_x(view_camera[0]) + 32*14
+	textbox_x = camera_get_view_x(view_camera[0]) + 32*13
 	textbox_y = camera_get_view_y(view_camera[0]) + 32*5
 	
 }else{
