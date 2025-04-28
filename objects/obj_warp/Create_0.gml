@@ -1,6 +1,7 @@
 target_rm = 0;
 target_x = 208;
 target_y = 272;
+message_flag = false;
 
 function warp_player(_target_rm, _target_x, _target_y)
 {

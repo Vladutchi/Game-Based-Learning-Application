@@ -14,16 +14,19 @@ level_names = [
 unlocked_levels = array_create(array_length(global.level_list), false);
 obj_save_load.load_levels();
 
-for(var _i = 0; _i < 10 ; _i++){
-	unlocked_levels[_i] = true;
+for (var _i = 0; _i < array_length(global.level_list); _i++) {
+    if (global.level_steps[_i] > 0) {
+        unlocked_levels[_i] = true; // Completed at least once
+    }
 }
+
 
 // Position 0 will be the "Back" button
 level_pos = 0;
 visible_count = 4;
 scroll_offset = 0;
 
-width = 32 * 5;
+width = 32 * 6;
 height = 32 * 5;
 
 menu_x = camera_get_view_x(view_camera[0]) + 32 * 7;

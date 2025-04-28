@@ -7,6 +7,7 @@ extra_hp = 0;
 invincibility = false;
 hit_x = 0
 hit_y = 0
+steps = 0
 
 function is_hit(_playerDeathCause = PlayerDeathCause.EnemyHit)
 {	

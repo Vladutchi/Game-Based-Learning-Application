@@ -17,9 +17,19 @@ for (var _i = 0; _i < visible_count; _i++) {
         _text = "Back";
     } else {
         _text = level_names[_index - 1];
-        if (!unlocked_levels[_index - 1]) _c = c_gray;
+
+        // Append steps if level is unlocked
+        if (unlocked_levels[_index - 1]) {
+            var _steps = global.level_steps[_index - 1];
+            if (_steps > 0) {
+                _text += " [" + string(_steps) + "]"; // just the number after name
+            }
+        } else {
+            _c = c_gray;
+        }
     }
 
+    // Highlight selected option
     if (level_pos == _index) {
         _c = $F8B800;
     }
