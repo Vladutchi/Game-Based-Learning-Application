@@ -29,7 +29,7 @@ scroll_offset = 0;
 width = 32 * 6;
 height = 32 * 5;
 
-menu_x = camera_get_view_x(view_camera[0]) + 32 * 7;
+menu_x = camera_get_view_x(view_camera[0]) + 32 * 6;
 menu_y = camera_get_view_y(view_camera[0]) + 32 * 4;
 
 op_border = 20;

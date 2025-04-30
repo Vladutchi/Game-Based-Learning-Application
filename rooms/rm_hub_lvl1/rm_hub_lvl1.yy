@@ -193,7 +193,7 @@
       ],"layers":[],"name":"Interactable","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"top","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"top","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":10,"SerialiseWidth":20,"TileCompressedData":[
           -6,-2147483648,1,0,-14,-2147483648,-3,27,5,0,26,-2147483648,25,0,-3,27,-12,-2147483648,1,24,-56,-2147483648,
-          -3,27,-5,0,-19,-2147483648,4,27,26,-2147483648,25,-12,-2147483648,1,24,-7,-2147483648,1,0,-33,-2147483648,
+          -3,27,-5,0,-19,-2147483648,4,25,26,-2147483648,25,-12,-2147483648,1,24,-7,-2147483648,1,0,-33,-2147483648,
           1,0,-13,-2147483648,
         ],"TileDataFormat":1,},"tilesetId":{"name":"ts_room","path":"tilesets/ts_room/ts_room.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"bottom","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"bottom","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":10,"SerialiseWidth":20,"TileCompressedData":[

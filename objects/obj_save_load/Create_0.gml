@@ -1,5 +1,6 @@
 global.level_list = [rm_1, rm_2, rm_3, rm_4, rm_5, rm_6, rm_7, rm_8, rm_9, rm_boss_10];
 global.level_steps = array_create(array_length(global.level_list), 0);
+global.level_best = ["18", "37", "44", "26", "8", "27", "34", "43", "27", "23"]
 
 function save() {
     var _save_data = global.room; // Store the value directly

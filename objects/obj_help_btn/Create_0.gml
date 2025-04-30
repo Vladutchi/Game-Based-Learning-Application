@@ -142,16 +142,11 @@ function add_dialogue(_textbox){
 
 			_textbox.line_width = _textbox.textbox_width - 2 * _textbox.border
 			
-			_textbox.add_text("The FOR structure is used to execute a set of instructions a specific number of times.")
-			_textbox.add_text("FOR variable <- start TO end DO" + "\n" + "   statement" + "\n" + "END FOR")
+			_textbox.add_text("The FOR structure is used to execute a set of instructions a specific number of times."+ "\n" + " " + "\n" +"FOR variable <- start TO end DO" + "\n" + "   statement" + "\n" + "END FOR")
 			_textbox.add_text("In this structure:" + "\n" + " 'variable' is the loop control variable." + "\n" + " 'start' is the initial value." + "\n" + " 'end' is the final value." + "\n" + " 'statement' is executed for each value of the variable from start to end.")
-			_textbox.add_text("Example:" + "\n" + "FOR i <- 1 TO 3 DO" + "\n" + "   statement" + "\n" + "END FOR" + "\n" + " In this example, 'i' will be 1, then 2, then 3 and 'statement' will be executed exactly 3 times. ")
-			_textbox.add_text("You can click on the FOR block to see its code.")
-			_textbox.add_text("You can attack the FOR block to run its code.")
-			
-			
-		}break;
-		
+			_textbox.add_text("Example:" + "\n" + "FOR i <- 1 TO 3 DO" + "\n" + "   statement" + "\n" + "END FOR" + "\n" + " " + "\n" + " In this example, 'i' will be 1, then 2, then 3, and 'statement' will be executed exactly 3 times. ")
+			_textbox.add_text("You can click on the FOR block to see its code." + "\n" + " " + "\n" + "You can attack the FOR block to run its code.");
+			}break;	
 		case rm_boss_10:{
 			
 			if(instance_exists(obj_boss))
