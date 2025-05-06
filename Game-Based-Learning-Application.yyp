@@ -172,6 +172,8 @@
     {"id":{"name":"rm_title_screen","path":"rooms/rm_title_screen/rm_title_screen.yy",},},
     {"id":{"name":"spr_anvil","path":"sprites/spr_anvil/spr_anvil.yy",},},
     {"id":{"name":"spr_archer","path":"sprites/spr_archer/spr_archer.yy",},},
+    {"id":{"name":"spr_arrow_down","path":"sprites/spr_arrow_down/spr_arrow_down.yy",},},
+    {"id":{"name":"spr_arrow_up","path":"sprites/spr_arrow_up/spr_arrow_up.yy",},},
     {"id":{"name":"spr_arrow","path":"sprites/spr_arrow/spr_arrow.yy",},},
     {"id":{"name":"spr_attack_btn_lock","path":"sprites/spr_attack_btn_lock/spr_attack_btn_lock.yy",},},
     {"id":{"name":"spr_attack_btn","path":"sprites/spr_attack_btn/spr_attack_btn.yy",},},
