@@ -2,7 +2,7 @@ draw_set_font(global.font_main);
 draw_set_valign(fa_top);
 draw_set_halign(fa_left);
 
-draw_sprite_ext(sprite_index, image_index, textbox_x, textbox_y, textbox_width/sprite_width, textbox_height/sprite_height, 0, c_white, 0.80)
+draw_sprite_ext(sprite_index, image_index, textbox_x, textbox_y, textbox_width/sprite_width, textbox_height/sprite_height, 0, c_white, 0)
 var _drawtext = text
  
  

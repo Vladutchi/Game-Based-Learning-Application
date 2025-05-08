@@ -1,4 +1,4 @@
-draw_sprite_ext(sprite_index, image_index, menu_x, menu_y, width/sprite_width, height/sprite_height, 0, c_white, 1);
+draw_sprite_ext(sprite_index, image_index, menu_x, menu_y, width/sprite_width, height/sprite_height, 0, c_white, 0);
 
 draw_set_font(global.font_main_big);
 draw_set_valign(fa_top);
@@ -69,12 +69,10 @@ for (var _i = 0; _i < visible_count; _i++) {
 
 //display custom ▲ and ▼ sprites to indicate more options in the menu
 
-if (scroll_offset > 0) {
-    draw_sprite(spr_arrow_up, 0, menu_x + width / 2, menu_y - 6);
-}
-
 if (scroll_offset + visible_count < _total_options) {
-    draw_sprite(spr_arrow_down, 0, menu_x + width / 2, menu_y + visible_count * op_space + op_border + 1);
+    draw_sprite(spr_arrow_down, 0, menu_x + width / 2 - 48, menu_y + visible_count * op_space + op_border + 1);
+} else{
+	draw_sprite(spr_arrow_up, 0, menu_x + width / 2 - 48, menu_y - 6);
 }
 
 //set font back to normal size
