@@ -175,7 +175,7 @@ In these levels, the player can interact with blocks labeled with their respecti
 - Completing this challenge signifies that the player has mastered the fundamental programming concepts introduced in the game.  
 
 **Final Challenge Screenshot:**  
-![Bossfight](screenshots/bossfight.png)  
+![Bossfight](screenshots/boss.png)  
 
 ---
 
