@@ -2,6 +2,8 @@
 
 This project is an educational game designed to teach fundamental programming concepts through interactive gameplay. Players learn key programming structures, including **variables, operators, loops, and conditional statements**. Each concept is explained using pseudocode in a structured and engaging manner.  
 
+## [Play The Game Here](https://gx.games/games/ncq9mv/code-runner/)
+
 ---
 
 ## Project Purpose  
