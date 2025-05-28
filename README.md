@@ -18,19 +18,18 @@ This project demonstrates:
 
 ## Prerequisites  
 
-To run this project, you will need **GameMaker Studio 2**. You can download the free edition from the official website:  
+To run this project, you will need **GameMaker**. You can download the free edition from the official website:  
 
-- [Download GameMaker Studio 2 (Free Edition)](https://www.yoyogames.com/get)  
+- [Download GameMaker for Free](https://gamemaker.io/en/download)
 
 ---
 
 ## How to Open the Project  
 
-1. Download and install **GameMaker Studio 2**.  
-2. Open GameMaker Studio 2.  
+1. Download and install **GameMaker**.  
+2. Open GameMaker.  
 3. Click **"Open Project"** and navigate to the project folder.  
-4. Select the file **`Game-Based-Learning-Application.yyp`** to load the project.  
-5. Run the game within GameMaker Studio 2.  
+4. Select the file **`Game-Based-Learning-Application.yyp`** to open the project.    
 
 ---
 
