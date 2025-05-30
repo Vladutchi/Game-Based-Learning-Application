@@ -1,8 +1,8 @@
 function display_selected(){
-	var _list_size = ds_list_size(obj_run_btn.list_slots);
+	var _list_size = ds_list_size(obj_run_btn.input_list);
     if (_list_size > list_index) {
 		
-        var _slot = ds_list_find_value(obj_run_btn.list_slots, list_index)
+        var _slot = ds_list_find_value(obj_run_btn.input_list, list_index)
 		
 		if (_slot.object_index == obj_attack_btn.object_index) {
 			if(_slot.object_index.flag == true and obj_run_btn.iterator == list_index){

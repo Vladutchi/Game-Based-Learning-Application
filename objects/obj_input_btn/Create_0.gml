@@ -4,11 +4,11 @@ flag = false;
 function add_to_list(){
 	if(obj_player.input_locked == false){
 		
-		obj_run_btn.obj_count = ds_list_size(obj_run_btn.list_slots);
+		obj_run_btn.input_count = ds_list_size(obj_run_btn.input_list);
 	
-		if(obj_run_btn.obj_count < 10){		
-			obj_run_btn.obj_count++;
-			ds_list_add(obj_run_btn.list_slots,id);
+		if(obj_run_btn.input_count < 10){		
+			obj_run_btn.input_count++;
+			ds_list_add(obj_run_btn.input_list,id);
 		}
 	}
 }
