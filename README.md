@@ -63,7 +63,7 @@ The main menu provides the following options:
 - Introduces the **game mechanics** and **basic controls**.  
 - Instructions can be displayed by clicking the **blue `?` button**.  
 - Players select movement and attack inputs via **green buttons**.  
-- Selected inputs appear in the **yellow column** on the right.  
+- Selected inputs appear in the **blue column** on the right.  
 - Inputs can be canceled using the **red "`X`" button**.  
 - The selected inputs execute one by one when the **green "`▶`" button** is clicked, simulating a step-by-step program execution.  
 
