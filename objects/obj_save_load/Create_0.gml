@@ -42,23 +42,13 @@ function load_levels() {
 
 
 function check_and_update_level_progress(current_steps_used) {
-		
-		var _room_index = array_get_index(global.level_list, room);
-		load_levels();
-	
-		if (_room_index != -1 and current_steps_used != 0) {
-			var _old_steps = global.level_steps[_room_index];
-        
-			if (_old_steps == 0 or current_steps_used < _old_steps) {
-				global.level_steps[_room_index] = current_steps_used;
-            
-				// Save the updated best steps
-				save_levels();
-			}
+	var _room_index = array_get_index(global.level_list, room);
+	load_levels();
+	if (_room_index != -1 and current_steps_used != 0) {
+		var _old_steps = global.level_steps[_room_index];
+		if (_old_steps == 0 or current_steps_used < _old_steps) {
+			global.level_steps[_room_index] = current_steps_used;
+			save_levels();
 		}
-	
+	}
 }
-
-
-
-
